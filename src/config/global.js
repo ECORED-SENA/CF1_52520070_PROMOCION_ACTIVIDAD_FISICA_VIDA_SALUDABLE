@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Actividad física, beneficios y política pública',
+    descripcionCurso:
+      'Este componente formativo aborda los conceptos de actividad física, salud, ejercicio físico, y deporte, detallando los beneficios de la actividad física para el bienestar general. También explora los hábitos saludables, el sedentarismo, y las normativas públicas relacionadas con la promoción de estilos de vida saludables, alimentación adecuada y control del tabaquismo. Es una guía para profesionales del deporte y la salud.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -31,28 +36,48 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Salud',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Actividad física',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Beneficios de la actividad física',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Ejercicio físico',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: '<em>Fitness y wellness</em>',
+            hash: 't_1_4',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Normas, promoción de hábitos y condiciones',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Ambientes saludables y actividad física',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Normatividad sobre alimentación saludable',
+            hash: 't_2_2',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -102,31 +127,165 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Salud',
+      referencia:
+        'Dr. Carlos Jaramillo. (2020). LOS 5 PILARES DE LA SALUD - Dr. Carlos Jaramillo. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=MB4JWQZjbGE&ab_channel=Dr.CarlosJaramillo',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Actividad física',
+      referencia:
+        'RevistaSemana.  (2023). .¿Caminar cuenta como actividad física? | Carlos Jaramillo en Educando ConCiencia - Semana Play. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=FiczO1NgjLw&ab_channel=RevistaSemana',
+    },
+    {
+      tema: 'Beneficios de la actividad física',
+      referencia:
+        'Aprendemos Juntos 2030. (2020).  Los beneficios del ejercicio para tu cerebro. Wendy Suzuki, neurocientífica. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=PXvz8zyuob0&ab_channel=AprendemosJuntos2030',
+    },
+    {
+      tema: 'Ejercicio físico',
+      referencia:
+        'Ministerio de Sanidad. (s.f.). Conceptos importantes en materia de Actividad Física y de Condición Física.',
+      tipo: 'Documento',
+      link:
+        'https://www.sanidad.gob.es/areas/promocionPrevencion/actividadFisica/guiaInfanciaAdolescencia/docs/capitulo1_Es.pdf',
+    },
+    {
+      tema: '<em>Fitness y wellness</em>',
+      referencia:
+        'GYM en CASA con Alejo Wellness (2021). Que es WELLNESS? como vivir el WELLNESS?. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=u0UeRNGdtbU&ab_channel=GYMenCASAconAlejoWellness',
+    },
+    {
+      tema: 'Normatividad sobre alimentación saludable',
+      referencia:
+        'Universidad UNAB (2023).Te contamos sobre la Ley de etiquetado de alimentos en Colombia. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=QMVKj63ADSI&ab_channel=Vor%C3%A1gine',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Actividad física',
+      significado:
+        'cualquier movimiento corporal que produce un gasto de energía por encima del metabolismo basal.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Aptitud física',
+      significado:
+        'conjunto de atributos relacionados con la capacidad de realizar actividades cotidianas con vigor y sin fatiga.',
+    },
+    {
+      termino: 'Deporte',
+      significado:
+        'ejercicio estructurado con fines competitivos que involucra reglas, puntuación y especialización de habilidades físicas.',
+    },
+    {
+      termino: 'Ejercicio físico',
+      significado:
+        'actividad física planeada, estructurada y repetitiva que tiene como objetivo mejorar o mantener la condición física.',
+    },
+    {
+      termino: 'Fitness',
+      significado:
+        'estado físico que se obtiene a través de la actividad física regular y que mejora la resistencia, fuerza y flexibilidad.',
+    },
+    {
+      termino: 'Hábitos saludables',
+      significado:
+        'pautas de comportamiento que contribuyen a mejorar la salud y el bienestar, como la actividad física regular y la alimentación adecuada.',
+    },
+    {
+      termino: 'Normativa pública',
+      significado:
+        'conjunto de leyes y regulaciones que promueven y protegen la salud pública mediante la promoción de estilos de vida saludables y la prevención de riesgos.',
+    },
+    {
+      termino: 'Salud',
+      significado:
+        'estado de completo bienestar físico, mental y social, y no meramente la ausencia de enfermedad o dolencia.',
+    },
+    {
+      termino: 'Sedentarismo',
+      significado:
+        'conducta caracterizada por la realización de actividades que implican un bajo gasto de energía, como estar sentado o ver televisión.',
+    },
+    {
+      termino: '<em>Wellness</em>',
+      significado:
+        'búsqueda del equilibrio integral entre cuerpo y mente, más allá del estado físico, para alcanzar bienestar mental, emocional y físico.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Andujar, A. J. C. (2010). <em>El desarrollo de la condición física para la mejora de la salud en adultos y personas mayores</em>. Actividad física, salud y calidad de vida.',
+      link: '',
+    },
+    {
+      referencia:
+        'Barroso, G. V. (s.f.). <em>Calidad de vida: hábitos y estilos de vida saludables</em>. Gema Vílchez Barroso.',
+      link: '',
+    },
+    {
+      referencia:
+        'Blasco, T., Ortís, L. C., y Feliu, J. C. (1994). Relaciones entre actividad física y salud. <em>Anuario de psicología /The UB Journal of psychology, 61</em>, 19-24.',
+      link: '',
+    },
+    {
+      referencia:
+        'Caspersen, J. C., Powel, E. K., y Christenson, M. G. (1985). Actividad física, ejercicio y condición física: Definiciones y distinciones para la investigación relacionada a la salud. <em>Public Health Reports</em>, 100(2), 126-131.',
+      link: '',
+    },
+    {
+      referencia:
+        'Cortés Castañeda, Ó. B., y Martínez Ostos, L. (s.f.). Factores de riesgo de enfermedad cardiovascular, en las secretarias del área administrativa de la Fundación Universitaria del Área Andina sede Bogotá.',
+      link: '',
+    },
+    {
+      referencia:
+        'Corrales, A. R. (2009). Hábitos saludables de la población relacionados con la actividad física como ocio. <em>Trances, 1</em>(2), 80-91.',
+      link: '',
+    },
+    {
+      referencia:
+        'Isidro, F. (2007). <em>Manual del entrenador personal. Del fitness al wellness (Color) (Vol. 93)</em>. Editorial Paidotribo.',
+      link: '',
+    },
+    {
+      referencia:
+        'López Miñarro, P. A., y Rodríguez García, P. L. (2001). Ejercicios físicos desaconsejados para la columna vertebral y alternativas para su corrección. <em>Selección: Revista española de medicina de la educación física y el deporte, 10</em>(1), 9-19.',
+      link: '',
+    },
+    {
+      referencia:
+        'Quijano, M., y Andrés, R. (2015). Análisis del proceso de formulación de planes decenales para los entes territoriales en el departamento de Risaralda: Plan decenal en deporte, recreación, actividad física y educación física.',
+      link: '',
+    },
+    {
+      referencia:
+        'Rangel Caballero, L. G., Rojas Sánchez, L. Z., y Gamboa Delgado, E. M. (2015). Actividad física y composición corporal en estudiantes universitarios de cultura física, deporte y recreación. <em>Revista de la Universidad Industrial de Santander. Salud, 47</em>(3), 281-290.',
+      link: '',
+    },
+    {
+      referencia:
+        'Tamayo, D. M., y Romero Murillo, H. A. (2009). Riesgo cardiovascular en practicantes de clases grupales de fin de semana de la Villa Olímpica (aerobistas novatos) del proyecto "La Villa" de la Secretaria Municipal de Deporte y Recreación Pereira 2009.',
+      link: '',
+    },
+    {
+      referencia:
+        'Zaragoza Casterad, J., Serrano Ostariz, E., y Generelo Lanaspa, E. (2004). Dimensiones de la condición física saludable: evolución según edad y género. <em>Dimensions of the healthy physical fitness: Evolution for age and gender</em>.',
       link: '',
     },
   ],

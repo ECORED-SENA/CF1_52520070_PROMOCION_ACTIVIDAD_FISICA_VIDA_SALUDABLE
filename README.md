@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.0.5**
+# **Actividad física, beneficios y política pública**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF1_52520070_PROMOCION_ACTIVIDAD_FISICA_VIDA_SALUDABLE/#/](https://ecored-sena.github.io/CF1_52520070_PROMOCION_ACTIVIDAD_FISICA_VIDA_SALUDABLE/#/)
 
 #
 
