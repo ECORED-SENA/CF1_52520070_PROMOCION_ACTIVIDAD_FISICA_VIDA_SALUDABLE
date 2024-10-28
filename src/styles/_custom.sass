@@ -61,6 +61,11 @@
   background-color: $color-sistema-o
 .fondo-color-sistema-p
   background-color: $color-sistema-p
+.fondo-color-sistema-q
+  background-color: $color-sistema-q
+
+.fondo-color-secundario
+  background-color: $color-secundario
 
 .c-color-sistema-n
   color: $color-sistema-n
@@ -109,6 +114,10 @@
 
 .borde-p-1
   border: 2px solid #FDBABB
+.borde-p-2
+  @media screen and (min-width: $bp-max-md)
+    border-top-right-radius: 19px
+    border-bottom-right-radius: 19px
 
 //fondos
 .fondo-personalizado-1
@@ -248,3 +257,35 @@
       position: relative
       bottom: -10px
       left: -5px
+
+//tabs
+.tabs-p-1
+  border-bottom: none
+  .tabs-b__tab--active
+    background-color: transparent !important
+  .tabs-b__tab
+    border-right: 1px solid $color-sistema-r
+    &:last-child
+      border-right: none
+    &:first-child
+      border-left: none
+    background-color: $color-sistema-q
+    border-bottom: 1px solid $color-sistema-r
+
+//acordion
+.acordion-personalizado-1
+  .tarjeta
+    .acordion__header
+      margin-bottom: 0.7rem !important
+    padding-right: 1rem !important
+    padding-left: 1rem !important
+    padding-top: 0.7rem !important
+    border-radius: 10px
+    background-color: $color-sistema-q
+    &.acordion__activo
+      background-color: $color-sistema-p
+  .acordion__accion__btn--a
+    width: 50px
+    height: 50px
+    background-color: $color-acento-botones !important
+    color: $white
