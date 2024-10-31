@@ -40,7 +40,7 @@
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.1 Ambientes saludables y actividad física
     
-    p.mb-4(data-aos="fade-right") La normativa que regula la promoción de hábitos, condiciones y estilos de vida saludable, relacionada con la práctica de actividad física, el fomento de una alimentación saludable y el control de ambientes libres de tabaco incluye:
+    p.mb-4(data-aos="fade-right") La normativa que regula la promoción de hábitos, condiciones y estilos de vida saludables, relacionada con la práctica de actividad física, el fomento de una alimentación saludable y el control de ambientes libres de tabaco incluye:
 
     .row.align-items-center
       .col-lg-3(data-aos="fade-right")
@@ -128,7 +128,7 @@
                 figure.mb-4.mb-lg-0
                   img.mx-auto(src="@/assets/curso/temas/60.png",style="max-width: 412px;")
     
-    p.mb-4(data-aos="fade-right") Entre el 6 y el 18 de septiembre se llevó a cabo en Bogotá la #[b Primera cumbre de programas gubernamentales de la actividad física de las Américas]. Durante este evento, la #[b Declaración de Bogotá] reafirmó el compromiso de los gobiernos latinoamericanos para fortalecer las intervenciones en la promoción de la actividad física, con el propósito de crear un continente más activo y saludable, al mismo tiempo que se impulsan acciones que contribuyan a la paz. Esta declaración se emitió el 8 de septiembre de 2023.
+    p.mb-4(data-aos="fade-right") Entre el 6 y el 18 de septiembre se llevó a cabo en Bogotá la #[b primera cumbre de programas gubernamentales de la actividad física de las Américas]. Durante este evento, la #[b Declaración de Bogotá] reafirmó el compromiso de los gobiernos latinoamericanos para fortalecer las intervenciones en la promoción de la actividad física, con el propósito de crear un continente más activo y saludable, al mismo tiempo que se impulsan acciones que contribuyan a la paz. Esta declaración se emitió el 8 de septiembre de 2023.
 
     .row.mb-4
       .col-lg-4(data-aos="fade-right")
