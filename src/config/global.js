@@ -111,7 +111,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/52520070_CF01_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -331,6 +331,21 @@ export default {
         {
           nombre: 'Edwin Sneider Velandia Suarez ',
           cargo: 'Desarrollador <i>full stack</i>',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Alejandro Delgado Acosta ',
+          cargo: 'Intérprete lenguaje de señas ',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Laura Gisselle Murcia Pardo ',
+          cargo: 'Animador y productor multimedia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'María Carolina Tamayo López ',
+          cargo: 'Locución ',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
