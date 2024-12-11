@@ -51,7 +51,7 @@
           .div(titulo="Ley General de la Educación (Ley 115)")
             .ps-md-5.ms-md-3
               p Reconoce la educación física, la recreación y el uso adecuado del tiempo libre como uno de los fines de la educación en Colombia. Además, establece su carácter como un proyecto pedagógico transversal y obligatorio dentro del currículo de la educación preescolar, básica y media.
-          .div(titulo="Ley 715 de 2001 (Numeral 12, Artículo 74)")
+          .div(titulo="Ley 715 de 2001 (artículo 74, numeral 12)")
             .ps-md-5.ms-md-3
               p Dicta normas orgánicas sobre recursos y competencias, y estipula que es función de los departamentos coordinar acciones entre los municipios para desarrollar programas y actividades que promuevan la práctica del deporte, la recreación y el aprovechamiento del tiempo libre en el territorio.
           .div(titulo="Ley 9 de 1979")
@@ -63,7 +63,7 @@
           .div(titulo="Ley 375 de 1997 (Ley de Juventud)")
             .ps-md-5.ms-md-3
               p Dispone que el Estado debe garantizar el derecho de los jóvenes a la recreación, la práctica del deporte y el aprovechamiento creativo del tiempo libre, asignando los recursos físicos, económicos y humanos necesarios para ello.
-          .div(titulo="Ley 185 de 1985 (Artículo 3, numeral 5)")
+          .div(titulo="Ley 185 de 1985 (artículo 3, numeral 5)")
             .ps-md-5.ms-md-3
               p Señala como uno de los objetivos del Estado garantizar el acceso de las personas a la práctica del deporte y la recreación, y fomentar la creación de espacios que faciliten la actividad física, el deporte y la recreación.
     
